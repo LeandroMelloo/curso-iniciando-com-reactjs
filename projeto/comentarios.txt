@@ -1,0 +1,17 @@
+1° instalar o pacote create-react-app, fornecido pelo facebook
+comando: npm i -g create-react-app
+
+2° criar a estrutura do projeto
+comando: create-react-app projeto
+
+3° entrar na pasta do projeto e subir o servidor
+comando: cd projeto 
+comando: npm start
+
+Observações:
+- foi criado uma pasta componentes, aonde ficara todos os nosso componentes
+- foi criado um componenete global App.js e está sendo importando pelo arquivo index.js
+- this.props = acessa as propriedades do componente Post, onde está o atributo "title" que está no App.js
+- o método constructor() será chamado quando um novo Post for criado
+- passar as propriedades que vem do Post para o constructor(props) e para classe pai do React super(props) que fará a tratativa dessas propriedades.
+- this.state = que fará um papel do estado do nosso post
